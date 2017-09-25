@@ -8,80 +8,45 @@
     <title>Semantic-Ui</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <div class="ui secondary pointing menu">
-      <a class="item active" href="./html/tutorial.html">
-        Tutorial
-      </a>
-      <a class="item" href="./html/exemplo.html">
-        Exemplo
-      </a>
-    </div>
-    <!-- Fim do navbar -->
-    <div class="ui container">
-      <h1 class="ui center aligned header"><a href="https://semantic-ui.com">Semantic UI</a></h1>
-      <!-- Header -->
-      <div class="row">
-        <div class="ui message">
-          <div class="header">
-            Descricao do framework
-          </div>
-          <p>Lorem ipsum</p>
-          <div class="header">
-            Instalar o Semantic UI
-          </div>
-          <!-- Tutorial de instalacao -->
-          <ul class="list">
-            <li>Você pode baixar usando o <a href="https://semantic-ui.com">semantic UI</a> do pacote NPM, mas é necessário que instale o GULP para compilar o arquivo</li>
-            <li>
-              <p>O Gulp roda no <a href="http://nodejs.org/">nodejs</a> então é preciso que você o tenha instalado no seu computador, caso esteja tudo ok, basta rodar o comando abaixo na sua linha de comando para instalar o CLI:</p>
-              <p><b>Gulp é um módulo NPM e deve ser instalado globalmente</b></p>
-              <div class="ui existing segment">
-                <pre>
-                  <code class="ignored code lang-javascript hljs">
-                    <span>npm install -g gulp</span>
-                  </code>
-                </pre>
-              </div>
-            </li>
-            <li>Instale o semantic UI através do pacote NPM
+    <div class="ui inverted vertical masthead center aligned segment">
 
-              <div class="ui existing segment">
-                <pre>
-                  <code class="ignored code lang-javascript hljs">
-                    <span>
-                      npm install semantic-ui --save
-                      cd semantic/
-                      gulp build
-                    </span>
-                  </code>
-                </pre>
-              </div>
-              <a href="https://asciinema.org/a/22121/embed?">Clique aqui</a> e assista o video oficial de instalação do <a href="https://semantic-ui.com">semantic UI</a> utilizando o NPM
-            </li>
-            <div class="ui horizontal divider">
-              Ou
-            </div>
-            <li>Baixe o framework semantic UI já compilado. <a href="https://github.com/Semantic-Org/Semantic-UI-CSS/archive/master.zip">
-              Clique aqui para baixar</a>
-            </li>
-            <div class="ui horizontal divider">-</div>
-            <li> Insira no head do seu html
-              <div class="ui existing segment">
-                <pre>
-                  <code class="ignored code html">
-                    <span>&lt;link rel="stylesheet" type=text/css" href="semantic/dist/semantic.min.css"&gt;</span>
-                    <span>&lt;script src="https://code.jquery.com/jquery-3.1.1.min.js"&gt;&lt;/script&gt;</span>
-                    <span>&lt;script src="semantic/dist/semantic.min.js"&gt;&lt;/script&gt;</span>
-                  </code>
-                </pre>
-              </div>
-            </li>
-          </ul>
-          <!-- Fim do tutorial de instalacao -->
+    <div class="ui container">
+      <div class="ui large secondary inverted pointing menu">
+        <a class="active item">Início</a>
+        <a class="item" href="./html/instalacao.html">Instalação</a>
+        <a class="item" href="./html/tutorial.html">Componentes</a>
+        <a class="item" href="./html/home.html">Aplicação</a>
+
+      </div>
+    </div>
+
+    <div class="ui text container">
+      <div class="ui section divider"></div>
+      <img src="https://semantic-ui.com/images/logo.png" alt="">
+      <div class="ui section divider"></div>
+      <h1 class="ui inverted header">
+        <a href="https://semantic-ui.com/">Semantic UI</a>
+      </h1>
+      <div class="ui inverted section divider"></div>
+
+      <h2>Framework front-end</h2>
+    </div>
+    <div class="ui section divider"></div>
+
+    <footer>
+      <div class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+          <center>Desenvolvido por Thiago Nogueira</center>
+          <div class="ui section divider"></div>
+          <div class="ui horizontal inverted small divided link list">
+            <a class="item" href="./index.html">#</a>
+            <a class="item" href="./html/home.html">Aplicação</a>
+            <a class="item" href="./html/instalacao.html">Instalação</a>
+            <a class="item" href="./html/tutorial.html">Tutorial</a>
+          </div>
         </div>
       </div>
-      <!-- Fim do header -->
-    </div>
+    </footer>
+  </div>
   </body>
 </html>
